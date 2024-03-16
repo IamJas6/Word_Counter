@@ -1,5 +1,5 @@
-# Word_Counter
-Word Counter Website
+# Word_Counter_Application
+Word Counter Web Application
 
 This is a simple word counter web application created using Python and the Django framework. 
 The application allows users to input text, and it provides them with a count of the words in the text.
