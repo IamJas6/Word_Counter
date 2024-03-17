@@ -6,6 +6,6 @@ def index(request):
     return render(request, 'index.html')
 
 def counter(request):
-    words = request.GET['words']
+    words = request.POST['words']
     total_words = len(words.split())
     return render(request, 'counter.html', {'total':total_words})
